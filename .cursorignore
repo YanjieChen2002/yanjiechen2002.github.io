@@ -1,0 +1,15 @@
+# Hard-block secrets from Cursor index, @-mention, Tab, and Agent reads.
+# Syntax is gitignore. Cursor also inherits this repo's .gitignore.
+# Do NOT list AGENTS.md, _config.yml, _pages, _data, or docs/CUSTOMIZE.md here.
+
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+credentials.json
+secrets.json
+**/*secret*
+**/*credential*

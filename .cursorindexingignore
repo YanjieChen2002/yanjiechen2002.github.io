@@ -1,0 +1,14 @@
+# Soft-exclude from semantic search only. Agent can still @-mention these.
+# Keep site wiring and content searchable: _config.yml, _pages, _data, AGENTS.md.
+
+# Large media — Cursor already skips most binaries; this keeps the trees out of search
+assets/video/
+assets/audio/
+assets/img/publication_preview/
+assets/plotly/
+
+# Visual / integration test fixtures
+test/visual/
+output/playwright/
+test-results/
+playwright-report/

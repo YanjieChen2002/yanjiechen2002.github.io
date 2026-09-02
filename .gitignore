@@ -1,21 +1,60 @@
-_site
-.bundle
-.DS_store
-.idea
-.jekyll-cache
+# Jekyll / Ruby
+_site/
+.bundle/
+.jekyll-cache/
 .jekyll-metadata
-.ruby-version
-.sass-cache
+.sass-cache/
 .tweet-cache
-.venv
+.ruby-version
+vendor/
+vendor/bundle/
+
+# Node
+node_modules/
+
+# Python (bin/ helper scripts)
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# al-folio local artifacts
 assets/libs/
 assets/rendercv/rendercv_output/*.typ
 al-folio-upgrade-report.md
-node_modules/
+
+# Playwright / visual tests
 output/playwright/
 test-results/
-vendor
+playwright-report/
+blob-report/
+.playwright/
 
-# Python bytecode from bin/ helper scripts
-__pycache__/
-*.pyc
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+credentials.json
+secrets.json
+
+# OS / editors
+.DS_Store
+.DS_store
+Thumbs.db
+*.swp
+*~
+.idea/
+
+# Cursor local state; keep committed project rules if you add them
+.cursor/*
+!.cursor/rules/
+!.cursor/rules/**
+
+# Logs / temp
+*.log
+*.tmp
+*.bak

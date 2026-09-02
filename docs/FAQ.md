@@ -12,7 +12,6 @@ Here are some frequently asked questions. If you have a different question, plea
   - [Atom feed doesn't work. Why?](#atom-feed-doesnt-work-why)
   - [My site doesn't work when I enable related_blog_posts. Why?](#my-site-doesnt-work-when-i-enable-related_blog_posts-why)
   - [When trying to deploy, it's asking for github login credentials, which github disabled password authentication and it exits with an error. How to fix?](#when-trying-to-deploy-its-asking-for-github-login-credentials-which-github-disabled-password-authentication-and-it-exits-with-an-error-how-to-fix)
-  - [When I manually run the Lighthouse Badger workflow, it fails with Error: Input required and not supplied: token. How do I fix that?](#when-i-manually-run-the-lighthouse-badger-workflow-it-fails-with-error-input-required-and-not-supplied-token-how-do-i-fix-that)
   - [My code runs fine locally, but when I create a commit and submit it, it fails with prettier code formatter workflow run failed for main branch. How do I fix that?](#my-code-runs-fine-locally-but-when-i-create-a-commit-and-submit-it-it-fails-with-prettier-code-formatter-workflow-run-failed-for-main-branch-how-do-i-fix-that)
   - [After I update my site with some new content, even a small change, the GitHub action throws an error or displays a warning. What happened?](#after-i-update-my-site-with-some-new-content-even-a-small-change-the-github-action-throws-an-error-or-displays-a-warning-what-happened)
   - [How do I upgrade from al-folio v1.0 to v1.1+ with minimal friction?](#how-do-i-upgrade-from-al-folio-v10-to-v11-with-minimal-friction)
@@ -68,10 +67,6 @@ This is probably due to the [classifier reborn](https://github.com/jekyll/classi
 ## When trying to deploy, it's asking for github login credentials, which github disabled password authentication and it exits with an error. How to fix?
 
 Open .git/config file using your preferred editor. Change the `https` portion of the `url` variable to `ssh`. Try deploying again.
-
-## When I manually run the Lighthouse Badger workflow, it fails with `Error: Input required and not supplied: token`. How do I fix that?
-
-You need to [create a personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-fine-grained-personal-access-token) and [add it as a secret](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions#creating-encrypted-secrets-for-a-repository) named `LIGHTHOUSE_BADGER_TOKEN` to your repository. For more information, check [lighthouse-badger documentation](https://github.com/MyActionWay/lighthouse-badger-workflows#lighthouse-badger-easyyml) on how to do this.
 
 ## My code runs fine locally, but when I create a commit and submit it, it fails with `prettier code formatter workflow run failed for main branch`. How do I fix that?
 
@@ -297,31 +292,7 @@ Build and deployment:
 - `deploy.yml`: builds the site and deploys it to GitHub Pages (the `gh-pages` branch)
 - `render-cv.yml`: regenerates your CV PDF with [RenderCV](https://github.com/rendercv/rendercv) when `_data/cv.yml` or the files under `assets/rendercv/` change
 - `update-citations.yml`: runs `bin/update_scholar_citations.py` on a schedule to refresh `_data/citations.yml` with Google Scholar citation counts. See [Setting up a Personal Access Token (PAT) for Google Scholar Citation Updates](CUSTOMIZE.md#setting-up-a-personal-access-token-pat-for-google-scholar-citation-updates)
-- `update-tocs.yml`: regenerates the `<!--ts-->…<!--te-->` table of contents blocks in changed Markdown files
-
-- [Frequently Asked Questions](#frequently-asked-questions)
-  - [After I create a new repository from this template and setup the repo, I get a deployment error. Isn't the website supposed to correctly deploy automatically?](#after-i-create-a-new-repository-from-this-template-and-setup-the-repo-i-get-a-deployment-error-isnt-the-website-supposed-to-correctly-deploy-automatically)
-  - [I am using a custom domain (e.g., foo.com). My custom domain becomes blank in the repository settings after each deployment. How do I fix that?](#i-am-using-a-custom-domain-eg-foocom-my-custom-domain-becomes-blank-in-the-repository-settings-after-each-deployment-how-do-i-fix-that)
-  - [My webpage works locally. But after deploying, it fails to build and throws Unknown tag 'toc'. How do I fix that?](#my-webpage-works-locally-but-after-deploying-it-fails-to-build-and-throws-unknown-tag-toc-how-do-i-fix-that)
-  - [My webpage works locally. But after deploying, it is not displayed correctly (CSS and JS are not loaded properly). How do I fix that?](#my-webpage-works-locally-but-after-deploying-it-is-not-displayed-correctly-css-and-js-are-not-loaded-properly-how-do-i-fix-that)
-  - [Atom feed doesn't work. Why?](#atom-feed-doesnt-work-why)
-  - [My site doesn't work when I enable related_blog_posts. Why?](#my-site-doesnt-work-when-i-enable-related_blog_posts-why)
-  - [When trying to deploy, it's asking for github login credentials, which github disabled password authentication and it exits with an error. How to fix?](#when-trying-to-deploy-its-asking-for-github-login-credentials-which-github-disabled-password-authentication-and-it-exits-with-an-error-how-to-fix)
-  - [When I manually run the Lighthouse Badger workflow, it fails with Error: Input required and not supplied: token. How do I fix that?](#when-i-manually-run-the-lighthouse-badger-workflow-it-fails-with-error-input-required-and-not-supplied-token-how-do-i-fix-that)
-  - [My code runs fine locally, but when I create a commit and submit it, it fails with prettier code formatter workflow run failed for main branch. How do I fix that?](#my-code-runs-fine-locally-but-when-i-create-a-commit-and-submit-it-it-fails-with-prettier-code-formatter-workflow-run-failed-for-main-branch-how-do-i-fix-that)
-  - [After I update my site with some new content, even a small change, the GitHub action throws an error or displays a warning. What happened?](#after-i-update-my-site-with-some-new-content-even-a-small-change-the-github-action-throws-an-error-or-displays-a-warning-what-happened)
-  - [How do I upgrade from al-folio v1.0 to v1.1+ with minimal friction?](#how-do-i-upgrade-from-al-folio-v10-to-v11-with-minimal-friction)
-  - [Do I need to fork every v1 gem to customize layouts and Liquid files?](#do-i-need-to-fork-every-v1-gem-to-customize-layouts-and-liquid-files)
-  - [How do I know when a local override is stale after a plugin update?](#how-do-i-know-when-a-local-override-is-stale-after-a-plugin-update)
-  - [Why does v1.x starter not have npm run build:css anymore?](#why-does-v1x-starter-not-have-npm-run-buildcss-anymore)
-  - [Jupyter posts are enabled, but my build says jupyter-nbconvert is missing. What are my options?](#jupyter-posts-are-enabled-but-my-build-says-jupyter-nbconvert-is-missing-what-are-my-options)
-  - [How do I handle legacy Bootstrap-marked pages on Tailwind-first v1.x?](#how-do-i-handle-legacy-bootstrap-marked-pages-on-tailwind-first-v1x)
-  - [How does sidebar table of contents work in v1.x?](#how-does-sidebar-table-of-contents-work-in-v1x)
-  - [Why does pretty_table: true still work when Bootstrap compatibility is disabled?](#why-does-pretty_table-true-still-work-when-bootstrap-compatibility-is-disabled)
-  - [Why does Lightbox2 work without jQuery in v1.x?](#why-does-lightbox2-work-without-jquery-in-v1x)
-  - [I am trying to deploy my site, but it fails with Could not find gem 'jekyll-diagrams' in locally installed gems. How do I fix that?](#i-am-trying-to-deploy-my-site-but-it-fails-with-could-not-find-gem-jekyll-diagrams-in-locally-installed-gems-how-do-i-fix-that)
-  - [How can I update icon library versions on the template](#how-can-i-update-icon-library-versions-on-the-template)
-  - [How should I name plugins in v1.x?](#how-should-i-name-plugins-in-v1x)
-  - [How can I propose featuring my plugin in al-folio?](#how-can-i-propose-featuring-my-plugin-in-al-folio)
-  - [Why does plugin integration use Gemfile + \_config.yml instead of a gemspec?](#why-does-plugin-integration-use-gemfile--_configyml-instead-of-a-gemspec)
-  - [What do all these GitHub actions/workflows mean?](#what-do-all-these-github-actionsworkflows-mean)
+- `prettier.yml` / `prettier-html.yml`: format Markdown, Liquid, and HTML
+- `broken-links.yml` / `broken-links-site.yml`: check links in source files and the built site
+- `codeql.yml`: GitHub CodeQL analysis
+- `schedule-posts.txt`: rename to `schedule-posts.yml` to publish `_scheduled/` posts automatically

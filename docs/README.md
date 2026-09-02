@@ -16,7 +16,6 @@ These guides cover the `al-folio` v1.x starter and its pluginized runtime.
 
 - [Architecture](ARCHITECTURE.md): how the starter and its plugin gems fit together, the failure modes that produce no error message, the v1 config contract, and local overrides.
 - [Ownership Boundaries](BOUNDARIES.md): starter-vs-plugin ownership, PR routing, and release responsibilities.
-- [Contributing](CONTRIBUTING.md): contributor workflow, validation, and agent guidance.
 - [Bootstrap skill](../.agents/skills/al-folio-bootstrap/SKILL.md): agent workflow for new v1 sites.
 - [Migration skill](../.agents/skills/al-folio-v1-migration/SKILL.md): agent workflow for customized fork migrations and override audits.
 

@@ -63,7 +63,7 @@ A gem present in only one of them is inert. In the `Gemfile` only, Jekyll never 
 
 ### 3. This repo's effective baseurl is `/al-folio`
 
-The demo site is published as a **project page** at `https://alshedivat.github.io/al-folio/`, so `_config.yml` already sets `baseurl: /al-folio`. A plain build therefore picks it up — `deploy.yml`, `broken-links-site.yml` and `axe.yml` all run `bundle exec jekyll build` with no flag. What matters is that the _effective_ baseurl stays `/al-folio`; passing it explicitly is redundant but harmless, and the command set spells it out so the served path is unambiguous:
+The demo site is published as a **project page** at `https://alshedivat.github.io/al-folio/`, so `_config.yml` already sets `baseurl: /al-folio`. A plain build therefore picks it up — `deploy.yml` and `broken-links-site.yml` run `bundle exec jekyll build` with no flag. What matters is that the _effective_ baseurl stays `/al-folio`; passing it explicitly is redundant but harmless, and the command set spells it out so the served path is unambiguous:
 
 ```bash
 bundle exec jekyll build --baseurl /al-folio
@@ -114,7 +114,7 @@ Most feature gems are Jekyll `Generator`s that inject their JS/CSS as static fil
 - `al_folio.tailwind.{version,css_entry,preflight}`
 - `al_folio.distill.{engine,source}`
 
-This is enforced **twice**: as build-time warnings by `al_folio_core`'s `:after_init` hook, and as **blocking** findings by `bundle exec al-folio upgrade audit` (which CI runs in `upgrade-check.yml`). Do not remove these keys.
+This is enforced **twice**: as build-time warnings by `al_folio_core`'s `:after_init` hook, and as **blocking** findings by `bundle exec al-folio upgrade audit`. Do not remove these keys.
 
 ## Local overrides: your site vs. this repo
 
@@ -132,7 +132,7 @@ bundle exec al-folio upgrade overrides accept <path>
 
 **In this starter repo** (`alshedivat/al-folio` itself): those directories must not exist. `npm run lint:style-contract` fails the build if the starter contains `_includes/`, `_layouts/`, `_sass/`, `_scripts/`, `assets/tailwind/`, `tailwind.config.js`, `assets/webfonts/`, or icon-font artifacts. This is the automated enforcement of the thin-starter boundary and applies to contributions to al-folio, **not** to user sites.
 
-> **Note for maintainers:** `test/style_contract.js` and `unit-tests.yml` ship to every site created from this template, so a user who adds a perfectly legal local override will see the starter's own contract check fail in their fork. Whether to re-scope that check to the upstream repo only is an open maintainer decision; it is deliberately unchanged here.
+> **Note:** `test/style_contract.js` still ships with the starter. A personal site that adds a legal local override of a gem-owned file will fail this check unless the script is removed or relaxed.
 
 ## Bootstrap compatibility is opt-in and time-boxed
 
