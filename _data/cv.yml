@@ -1,189 +1,153 @@
 cv:
   name: Yanjie Chen
-  label: Scientist
+  label: Research Staff Associate
   email: yc4594@columbia.edu
   location: New York, NY
   image: ""
-  summary: I am a Staff Associate in Irving Institute for Cancer Dynamics at Columbia University, where I am advised by Dr. [Khanh N. Dinh](https://dinhngockhanh.github.io/). My research interests lie in the intersection of statistics and Computational Biology, with a particular focus on bulk DNA clustering algorithms.
+  summary: "I am a Research Staff Associate in the [Dinh Lab](https://dinhngockhanh.github.io/) at Columbia's Irving Institute for Cancer Dynamics. My work applies statistics and machine learning to cancer genomics, with a particular focus on clustering algorithms for bulk DNA sequencing data."
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: YanjieChen2002
     - network: LinkedIn
-      username: example
+      username: YanjieChen
+    - network: ORCID
+      username: 0009-0001-6223-7391
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
+    street: Columbia University, 1190 Amsterdam Avenue
+    city: New York
+    region: NY
+    postalCode: 10027
     countryCode: US
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: Columbia University
+        location: New York, US
+        url: https://stat.columbia.edu/
+        area: Statistics
+        studyType: Master
+        degree: MA
+        start_date: 2024-09
+        end_date: 2025-12
         highlights:
-          - Description 1.
-          - Description 2.
+          - "GPA: 3.8/4.0"
+          - "Coursework: Advanced Machine Learning, Deep Learning, Probability Theory, Computational Statistics"
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: University of Liverpool
+        location: Liverpool, UK
+        url: https://www.liverpool.ac.uk/
+        area: Mathematics
+        studyType: Undergraduate
+        degree: BSc
+        start_date: 2022-09
+        end_date: 2024-06
         highlights:
-          - Description 1.
-          - Description 2.
+          - First Class Honours
+          - "GPA: 3.9/4.0"
+          - "Coursework: Stochastic Modelling, Statistics and Probability"
+
+      - institution: Xi'an Jiaotong-Liverpool University
+        location: Suzhou, China
+        url: https://www.xjtlu.edu.cn/
+        area: Mathematics
+        studyType: Undergraduate
+        degree: BSc
+        start_date: 2020-09
+        end_date: 2022-06
+        highlights:
+          - "GPA: 3.7/4.0"
+          - "Coursework: Dynamic Modeling, Linear Algebra, Analysis"
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Irving Institute for Cancer Dynamics, Columbia University
+        position: Research Staff Associate
+        location: New York, US
+        start_date: 2026-01
+        end_date: present
+        url: https://cancerdynamics.columbia.edu/yanjie-chen
+        summary: "Advisor: [Khanh N. Dinh](https://dinhngockhanh.github.io/)."
         highlights:
-          - Relativity
-          - Description 2.
+          - "Continued DECODE development"
+          - "Large-scale validation on HPC; DECODE-copy_number_variant & DECODE2"
+          - "Other projects on cancer genomics"
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Irving Institute for Cancer Dynamics, Columbia University
+        position: Research Intern
+        location: New York, US
+        start_date: 2025-01
+        end_date: 2025-12
+        url: https://cancerdynamics.columbia.edu/
+        summary: "Advisor: [Khanh N. Dinh](https://dinhngockhanh.github.io/)."
         highlights:
-          - Description 1.
-          - Description 2.
+          - Developed DECODE to cluster mutations from bulk DNA-seq using population-genetics models
+          - Built the analysis pipeline for tumor clonality and subclonal inference
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: Memorial Sloan Kettering Cancer Center
+        position: Research Assistant
+        location: New York, US
+        start_date: 2025-08
+        end_date: present
+        url: https://www.mskcc.org/profile/li-xuan-qin
+        summary: "Advisor: [Li-Xuan Qin](https://www.mskcc.org/profile/li-xuan-qin)."
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Stabilized SyNG-BTS for tumor RNA/miRNA-seq augmentation
+          - Large-scale validation and supplementary analysis
 
     Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
-
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+      - title: Undergraduate Academic Excellence Performance Scholarship
+        date: 2021
+        awarder: Xi'an Jiaotong-Liverpool University
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Programming
+        keywords:
+          - R
+          - Python (PyTorch)
+          - Bash/Linux
+          - LaTeX
+          - MATLAB
+      - name: ML/Stats
+        keywords:
+          - Bayesian Inference
+          - Random Forests
+          - Time Series Analysis
+          - NLP
+          - Transformers
 
     Languages:
-      - name: German
-        summary: "Native speaker"
-
+      - name: Mandarin
+        summary: Native
       - name: English
-        summary: "Fluent"
+        summary: Fluent
 
     Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      - name: Computational Genomics
+        keywords:
+          - Bayesian Inference
+          - Causal Inference
+          - Modern ML Solutions
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: Joint Statistical Meetings (JSM) 2026
+        date: 2026-08
+        url: https://ww2.amstat.org/meetings/jsm/2026/onlineprogram/session.cfm?id=6813
+        summary: Speaker in a topic-contributed paper session, at the invitation of Prof. Marek Kimmel.
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - 'Talk: "Reliable Inference of Tumor Expansion Rate and Clonality from DNA-Sequencing Data."'
+          - 'Session: "Stochastic Processes Describing Cancer-Related Biological Systems: Modeling and Inference," Boston, US.'
+
+      - name: DitecT Lab, Columbia Engineering
+        date: 2025-09
+        url: https://github.com/YanjieChen2002/NYC_taxi_trip_analysis
+        summary: "Data Researcher. Advisor: Xuan Sharon Di."
+        highlights:
+          - Compiling NYC TLC yellow/green taxi trips with holiday and weather data to evaluate CBD congestion pricing
+          - Building a lean cleaning/feature pipeline and performing time-series and causal analyses (DiD, event-study, survival) to quantify demand shifts; exploring substitution and behavioral mechanisms
 
     References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Khanh N. Dinh, Ph.D.
+        reference: "Research Scientist, Irving Institute for Cancer Dynamics, Columbia University. [profile](https://cancerdynamics.columbia.edu/khanh-ngoc-dinh-phd)."
+      - name: Li-Xuan Qin, Ph.D.
+        reference: "Attending Biostatistician, Memorial Sloan Kettering Cancer Center. [Profile](https://www.mskcc.org/profile/li-xuan-qin)."

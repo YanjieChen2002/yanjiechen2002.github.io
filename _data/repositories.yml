@@ -4,10 +4,9 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - dinhngockhanh/DECODE
+  - LXQin/SyNG-BTS
+  - YanjieChen2002/Class-Invaders
+  - YanjieChen2002/Meal-Planner
+  - YanjieChen2002/deep-learning-portfolio
+  - YanjieChen2002/NYC_taxi_trip_analysis
