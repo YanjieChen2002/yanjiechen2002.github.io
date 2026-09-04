@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://cancerdynamics.columbia.edu/'>Irving Institute for Cancer Dynamics, Columbia University</a>.
+subtitle: <a href='https://cancerdynamics.columbia.edu/yanjie-chen'>Research Staff Associate</a> in the <a href='https://cancerdynamics.columbia.edu'>Irving Institute for Cancer Dynamics</a> at Columbia University.
 
 profile:
   align: right
@@ -19,7 +19,7 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 3 # leave blank to include all the news in the `_news` folder
+  limit: # leave blank to include all news items on the homepage
 ---
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.

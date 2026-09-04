@@ -7,14 +7,14 @@ first_name: Yanjie
 middle_name:
 last_name: Chen
 contact_note: >
-  Contact me at yc4594@columbia.edu.
+  Contact me at yc4594@columbia.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  I am a Staff Associate in Irving Institute for Cancer Dynamics at Columbia University, where I am advised by Dr. [Khanh N. Dinh](https://dinhngockhanh.github.io/). My research interests lie in the intersection of statistics and Computational Biology, with a particular focus on bulk DNA clustering algorithms.
+  I am a Research Staff Associate at the Irving Institute for Cancer Dynamics at Columbia University, advised by Dr. Khanh N. Dinh. My research sits at the intersection of statistics and computational biology, with a focus on clustering algorithms for bulk DNA sequencing data.
 # footer_text: >
 #   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 #   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 #   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-# keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: computational biology, cancer genomics, statistics, bulk DNA-seq, tumor clonality
 
 url: https://yanjiechen2002.github.io # the base hostname & protocol for your site
 baseurl: # leave empty for a username.github.io site; do not delete this key
@@ -298,8 +298,8 @@ terser:
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Chen]
+  first_name: [Yanjie, Y.]
 
   style: apa
   locale: en
