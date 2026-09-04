@@ -1,10 +1,10 @@
 cv:
-  name: Albert Einstein
+  name: Yanjie Chen
   label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  email: yc4594@columbia.edu
+  location: New York, NY
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: I am a Staff Associate in Irving Institute for Cancer Dynamics at Columbia University, where I am advised by Dr. [Khanh N. Dinh](https://dinhngockhanh.github.io/). My research interests lie in the intersection of statistics and Computational Biology, with a particular focus on bulk DNA clustering algorithms.
 
   social_networks:
     - network: X
