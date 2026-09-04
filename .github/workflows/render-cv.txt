@@ -1,3 +1,7 @@
+# Disabled: this site uses a hand-maintained PDF at assets/pdf/CV_202609.pdf.
+# The webpage CV is rendered from _data/cv.yml by al-folio, not by the RenderCV CLI.
+# Rename this file to render-cv.yml to re-enable automatic PDF generation.
+
 name: Render a CV
 on:
   push:

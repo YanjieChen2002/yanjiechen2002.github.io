@@ -3,7 +3,6 @@ cv:
   label: Research Staff Associate
   email: yc4594@columbia.edu
   location: New York, NY
-  image: ""
   summary: "I am a Research Staff Associate in the [Dinh Lab](https://dinhngockhanh.github.io/) at Columbia's Irving Institute for Cancer Dynamics. My work applies statistics and machine learning to cancer genomics, with a particular focus on clustering algorithms for bulk DNA sequencing data."
 
   social_networks:
@@ -18,7 +17,7 @@ cv:
     street: Columbia University, 1190 Amsterdam Avenue
     city: New York
     region: NY
-    postalCode: 10027
+    postalCode: "10027"
     countryCode: US
 
   sections:
