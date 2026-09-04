@@ -1,0 +1,22 @@
+# In-preparation manuscripts shown on /publications/.
+# status is shown as-is on the third line, in italics (e.g. Preparing manuscript, Accepted by FedCSIS).
+# preview is a filename in assets/img/publication_preview/ (optional).
+# Display order is the list order.
+
+- title: Automatic perturbation kernels for biological applications of Approximate Bayesian Computation sequential Monte Carlo with random forests
+  authors:
+    - Yanjie Chen, Khanh N. Dinh
+  status: Accepted by FedCSIS
+  preview: chen2026beaumont.jpg
+
+- title: Refining breast cancer stratification through improved mutation clustering of genomic samples
+  authors:
+    - Yanjie Chen, Khanh N. Dinh
+  status: Submitted
+  preview: chen2026brca.jpg
+
+- title: Generative data augmentation methods for miRNA/RNA-seq
+  authors:
+    - [Collaborators from Li-Xuan Qin Lab]
+  status: Preparing manuscript
+  preview: wang2027syngbts.jpg
