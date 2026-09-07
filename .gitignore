@@ -23,13 +23,6 @@ assets/libs/
 assets/rendercv/rendercv_output/*.typ
 al-folio-upgrade-report.md
 
-# Playwright / visual tests
-output/playwright/
-test-results/
-playwright-report/
-blob-report/
-.playwright/
-
 # Secrets — never commit
 .env
 .env.*

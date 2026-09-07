@@ -1,17 +1,10 @@
-# this file contains the social media links and usernames of the author
-# the socials will be displayed in the order they are defined here
-# for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
-cv_pdf: /assets/pdf/CV_202609.pdf # path to your CV PDF file
-email: yc4594@columbia.edu # your email address
+# Social links, shown in the order defined here.
+# See https://github.com/george-gca/jekyll-socials
+cv_pdf: /assets/pdf/CV_202609.pdf
+email: yc4594@columbia.edu
 github_username: YanjieChen2002
 linkedin_username: YanjieChen
 orcid_id: 0009-0001-6223-7391
-# inspirehep_id: 1010907 # Inspire HEP author ID
-# rss_icon: true # comment this line to hide the RSS icon
-# scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
-# wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
-# whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-# custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
-#   logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
-#   title: Custom Social
-#   url: https://www.alberteinstein.com/
+# scholar_userid: # add a Google Scholar ID to enable citation badges and the update script
+# rss_icon: true
+# wechat_qr: # e.g. wechat-qr.png if saved to assets/img/wechat-qr.png

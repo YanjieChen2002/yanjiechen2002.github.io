@@ -32,14 +32,12 @@ repo_theme_dark: dark # https://github.com/stats-organization/github-stats-exten
 # Off by default: addresses are then split at build time so the HTML contains no
 # `user@host` and no `mailto:` for harvesters to scrape, and clicking one copies
 # it to the clipboard instead of opening a mail client.
-# See "Protecting email addresses from scrapers" in docs/CUSTOMIZE.md.
 protect_email: false
 
 # Off by default: the free public github-profile-trophy instance is disabled
 # (its Vercel deployment answers HTTP 402 / DEPLOYMENT_DISABLED), so every trophy
-# image 404s. The project itself is still open source and free — self-host it and
-# point external_services.github_profile_trophy_url at your instance, then set
-# enabled: true. See docs/CUSTOMIZE.md.
+# image 404s. Self-host it and point external_services.github_profile_trophy_url
+# at your instance, then set enabled: true.
 repo_trophies:
   enabled: false
   theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
@@ -71,7 +69,7 @@ al_folio:
     cv:
       enabled: true
     distill:
-      enabled: true
+      enabled: false
   compat:
     bootstrap:
       enabled: false
@@ -150,7 +148,7 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # -----------------------------------------------------------------------------
@@ -170,8 +168,6 @@ collections:
   news:
     defaults:
       layout: post
-    output: true
-  projects:
     output: true
 
 # -----------------------------------------------------------------------------
@@ -197,11 +193,9 @@ exclude:
   - AGENTS.md
   - al-folio-upgrade-report.md
   - bin/
-  - CLAUDE.md
   - Dockerfile
   - docker-compose.yml
   - docker-compose-slim.yml
-  - docs/
   - Gemfile
   - Gemfile.lock
   - LICENSE
@@ -209,8 +203,6 @@ exclude:
   - package-lock.json
   - purgecss.config.js
   - README.md
-  - gems/
-  - migrations/
   - vendor
 keep_files:
   - CNAME
@@ -327,8 +319,8 @@ scholar:
 enable_publication_badges:
   altmetric: true # Altmetric badge (Customization options: https://badge-docs.altmetric.com/index.html)
   dimensions: true # Dimensions badge (Customization options: https://badge.dimensions.ai/)
-  google_scholar: true # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
-  inspirehep: true # Inspire HEP badge (https://help.inspirehep.net/knowledge-base/citation-metrics/)
+  google_scholar: false # requires scholar_userid in _data/socials.yml
+  inspirehep: false # Inspire HEP badge (https://help.inspirehep.net/knowledge-base/citation-metrics/)
 
 # Filter out certain bibtex entry keywords used internally from the bib output
 filtered_bibtex_keywords:
@@ -418,12 +410,12 @@ lazy_loading_images: true # enables lazy loading of images (recommended)
 enable_google_verification: false # enables google site verification
 enable_bing_verification: false # enables bing site verification
 enable_cookie_consent: false # enables GDPR-compliant cookie consent dialog (https://github.com/orestbida/cookieconsent)
-enable_masonry: true # enables automatic project cards arrangement
+enable_masonry: false # project cards are not used on this site
 enable_math: true # enables math typesetting (uses MathJax)
 enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
 enable_darkmode: true # enables switching between light/dark modes
 enable_navbar_social: false # enables displaying social links in the navbar on the about page
-enable_project_categories: true # enables categorization of projects into multiple categories
+enable_project_categories: false # projects collection is retired
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
 enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position
 enable_video_embedding: false # enables video embedding for bibtex entries. If false, the button opens the video link in a new window.
@@ -633,24 +625,4 @@ third_party_libraries:
       js_map: "https://cdn.jsdelivr.net/npm/vega-lite@{{version}}/build/vega-lite.min.js.map"
     version: "5.16.3"
 
-# -----------------------------------------------------------------------------
-# Get external JSON data
-# -----------------------------------------------------------------------------
-
-jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.json # it can also be an url
-
-jsonresume:
-  - basics
-  - work
-  - education
-  - publications
-  - projects
-  - volunteer
-  - awards
-  - certificates
-  - skills
-  - languages
-  - interests
-  - references
+# JSONResume is unused; the CV page reads _data/cv.yml (cv_format: rendercv).

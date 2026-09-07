@@ -1,34 +1,29 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+# Last-name keys must be lowercase and must not contain accents.
+# These names are linked when they appear in bibliography entries.
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"dinh":
+  - firstname: ["Khanh", "K.", "K. N.", "Khanh N.", "Khanh Ngoc"]
+    url: https://dinhngockhanh.github.io/
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"kimmel":
+  - firstname: ["Marek", "M."]
+    url: https://profiles.rice.edu/faculty/marek-kimmel
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"tavare":
+  - firstname: ["Simon", "S."]
+    url: https://tavarelab.cancerdynamics.columbia.edu/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"jaksik":
+  - firstname: ["Roman", "R."]
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"terranova":
+  - firstname: ["Peter", "P."]
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"el baghdadi":
+  - firstname: ["Sara", "S."]
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"koval":
+  - firstname: ["Andrew", "A."]
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"kurpas":
+  - firstname: ["Monika", "M.", "Monika K.", "M. K."]
