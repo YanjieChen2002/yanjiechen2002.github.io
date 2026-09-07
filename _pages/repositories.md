@@ -1,13 +1,16 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
+title: Software
 description: Selected contributed projects, practice projects, and personal interest projects.
 nav: true
 nav_order: 3
 ---
 
-{% if site.data.repositories.github_users %}
+**GitHub:** [github.com/YanjieChen2002](https://github.com/YanjieChen2002)
+
+{% comment %} Temporarily hide the GitHub user profile card. Restore by changing `if false` to `if site.data.repositories.github_users`. {% endcomment %}
+{% if false %}
 
 ## GitHub users
 

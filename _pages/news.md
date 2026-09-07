@@ -1,6 +1,6 @@
 ---
 layout: page
-title: news
+title: News
 permalink: /news/
 description: Selected updates on research, appointments, and talks.
 nav: false

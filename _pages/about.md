@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='https://cancerdynamics.columbia.edu/yanjie-chen'>Research Staff Associate</a> in the <a href='https://cancerdynamics.columbia.edu'>Irving Institute for Cancer Dynamics</a> at Columbia University.
 
@@ -24,10 +24,7 @@ announcements:
 
 I am a Research Staff Associate in the [Dinh Lab](https://dinhngockhanh.github.io/) at Columbia's Irving Institute for Cancer Dynamics. My work applies statistics and machine learning to cancer genomics.
 
-**Education**
-
-- B.Sc. in Mathematics with First Class Honours, University of Liverpool, 2024
-- M.A. in Statistics, Columbia University
+**Email:** [yc4594@columbia.edu](mailto:yc4594@columbia.edu)
 
 **Research interests**
 
@@ -35,5 +32,10 @@ I am a Research Staff Associate in the [Dinh Lab](https://dinhngockhanh.github.i
 - Subclonal inference from bulk DNA sequencing
 - Generative models for genomic data
 - Scalable algorithms for large-scale multi-omic datasets
+
+**Education**
+
+- B.Sc. in Mathematics with First Class Honours, University of Liverpool, 2024
+- M.A. in Statistics, Columbia University, 2025
 
 I have also collaborated across several laboratories at Columbia on statistical modeling and machine learning projects.
