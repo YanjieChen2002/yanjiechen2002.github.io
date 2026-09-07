@@ -471,13 +471,6 @@ pre {
   border-radius: 2px;
 }
 
-hr {
-  margin-top: 8px;
-  margin-bottom: 10px;
-  border: 0;
-  border-top: 1px solid #a6e22e;
-}
-
 #complete > select > option:hover {
   background: rgba(93, 92, 82, 0.25);
   background-color: rgba(93, 92, 82, 0.25);
