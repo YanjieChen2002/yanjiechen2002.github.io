@@ -199,8 +199,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE
-  - package.json
-  - package-lock.json
   - purgecss.config.js
   - README.md
   - vendor

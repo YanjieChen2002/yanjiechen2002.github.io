@@ -34,8 +34,6 @@ From the repo root:
 
 ```bash
 bundle install
-npm ci
-npm run lint:prettier
 bundle exec jekyll build
 bundle exec jekyll serve
 ```

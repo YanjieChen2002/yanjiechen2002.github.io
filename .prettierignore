@@ -1,5 +1,0 @@
-**/*.map
-**/*.min.css
-**/*.min.js
-Gemfile.lock
-package-lock.json
