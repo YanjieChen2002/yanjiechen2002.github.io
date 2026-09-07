@@ -7,16 +7,16 @@ Stack: Jekyll + `theme: al_folio_core` (al-folio v1.x plugin gems).
 
 ## What belongs here
 
-| Change | Location |
-| --- | --- |
-| Page copy, nav, permalinks | `_pages/` |
-| News items | `_news/` |
-| Publications | `_bibliography/papers.bib`, `_data/in_preparation.yml`, `_data/venues.yml`, `_data/coauthors.yml` |
-| CV data | `_data/cv.yml` |
-| Socials, GitHub cards | `_data/socials.yml`, `_data/repositories.yml` |
-| Images, PDF | `assets/` |
-| Plugin pins and feature flags | `Gemfile` **and** `_config.yml` (both) |
-| Local theme override | `_includes/footer.liquid` only, unless the user asks for another override |
+| Change                        | Location                                                                                          |
+| ----------------------------- | ------------------------------------------------------------------------------------------------- |
+| Page copy, nav, permalinks    | `_pages/`                                                                                         |
+| News items                    | `_news/`                                                                                          |
+| Publications                  | `_bibliography/papers.bib`, `_data/in_preparation.yml`, `_data/venues.yml`, `_data/coauthors.yml` |
+| CV data                       | `_data/cv.yml`                                                                                    |
+| Socials, GitHub cards         | `_data/socials.yml`, `_data/repositories.yml`                                                     |
+| Images, PDF                   | `assets/`                                                                                         |
+| Plugin pins and feature flags | `Gemfile` **and** `_config.yml` (both)                                                            |
+| Local theme override          | `_includes/footer.liquid` only, unless the user asks for another override                         |
 
 Runtime layouts, includes, Sass, Liquid tags, and feature JS live in the gems. Do not add `_layouts/`, `_sass/`, `_scripts/`, or a local Tailwind pipeline unless the user explicitly wants a gem override.
 

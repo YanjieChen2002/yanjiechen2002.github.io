@@ -6,13 +6,13 @@ I am a Research Staff Associate at Columbia's Irving Institute for Cancer Dynami
 
 ## Pages
 
-| Path | Source |
-| --- | --- |
-| Home | [`_pages/about.md`](_pages/about.md) |
+| Path         | Source                                                                                                                                                             |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Home         | [`_pages/about.md`](_pages/about.md)                                                                                                                               |
 | Publications | [`_pages/publications.md`](_pages/publications.md), [`_bibliography/papers.bib`](_bibliography/papers.bib), [`_data/in_preparation.yml`](_data/in_preparation.yml) |
-| Repositories | [`_pages/repositories.md`](_pages/repositories.md), [`_data/repositories.yml`](_data/repositories.yml) |
-| CV | [`_pages/cv.md`](_pages/cv.md), [`_data/cv.yml`](_data/cv.yml), PDF at [`assets/pdf/CV_202609.pdf`](assets/pdf/CV_202609.pdf) |
-| News | [`_news/`](_news/), listed on the home page |
+| Repositories | [`_pages/repositories.md`](_pages/repositories.md), [`_data/repositories.yml`](_data/repositories.yml)                                                             |
+| CV           | [`_pages/cv.md`](_pages/cv.md), [`_data/cv.yml`](_data/cv.yml), PDF at [`assets/pdf/CV_202609.pdf`](assets/pdf/CV_202609.pdf)                                      |
+| News         | [`_news/`](_news/), listed on the home page                                                                                                                        |
 
 The Projects collection is retired. GitHub work is listed on Repositories instead.
 
