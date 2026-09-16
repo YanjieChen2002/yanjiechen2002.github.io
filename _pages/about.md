@@ -6,7 +6,7 @@ subtitle: <a href='https://cancerdynamics.columbia.edu/yanjie-chen'>Research Sta
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: selfie.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Office 601 Schermerhorn Hall</p>
