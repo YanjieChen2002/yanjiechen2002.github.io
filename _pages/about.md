@@ -26,6 +26,8 @@ I am a Research Staff Associate in the [Dinh Lab](https://dinhngockhanh.github.i
 
 **Email:** [yc4594@columbia.edu](mailto:yc4594@columbia.edu)
 
+Want to have a chat? [See my availability and book a meeting](https://cal.com/yanjie-chen/meet-with-yanjie-chen).
+
 **Research interests**
 
 - Probabilistic modeling of tumor evolution
