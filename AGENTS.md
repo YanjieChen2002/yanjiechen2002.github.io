@@ -25,7 +25,7 @@ Runtime layouts, includes, Sass, Liquid tags, and feature JS live in the gems. D
 1. **`baseurl` is empty.** This is a `username.github.io` user site. `bundle exec jekyll build` / `serve` with no extra `--baseurl` is correct. `/al-folio` will break every asset and link.
 2. **There is no Projects page.** The `_projects` collection was removed. Do not recreate `_projects/` or `_pages/projects.md`. Course/side work that should be public goes on Repositories (`_data/repositories.yml`) or in the CV YAML.
 3. **There is no blog, books, teachings, or plugin catalog.** Do not restore `_posts/`, `_books/`, `_teachings/`, `_pages/plugins.md`, or `_data/featured_plugins.yml`.
-4. **CV format is RenderCV YAML**, not the Einstein `resume.json` demo. The downloadable file is `assets/pdf/CV_202609.pdf`. Leave `.github/workflows/render-cv.txt` disabled unless the user asks to generate the PDF in CI.
+4. **CV format is RenderCV YAML**, not the Einstein `resume.json` demo. The downloadable file is `assets/pdf/CV_Yanjie_Chen.pdf`. Leave `.github/workflows/render-cv.txt` disabled unless the user asks to generate the PDF in CI.
 5. **The footer is intentionally blank.** `_includes/footer.liquid` overrides the gem footer. Delete that file only if the user wants the stock footer back.
 
 ## Local commands
