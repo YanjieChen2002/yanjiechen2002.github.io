@@ -1,9 +1,9 @@
 # Last-name keys must be lowercase and must not contain accents.
 # These names are linked when they appear in bibliography entries.
 
-"dinh":
-  - firstname: ["Khanh", "K.", "K. N.", "Khanh N.", "Khanh Ngoc"]
-    url: https://dinhngockhanh.github.io/
+# "dinh":
+#   - firstname: ["Khanh", "K.", "K. N.", "Khanh N.", "Khanh Ngoc"]
+#     url: https://dinhngockhanh.github.io/
 
 "kimmel":
   - firstname: ["Marek", "M."]

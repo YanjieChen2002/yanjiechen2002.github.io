@@ -3,13 +3,6 @@
 # preview is a filename in assets/img/publication_preview/ (optional).
 # Display order is the list order.
 
-- title: Automatic perturbation kernels for biological applications of Approximate Bayesian Computation sequential Monte Carlo with random forests
-  authors:
-    - Yanjie Chen
-    - Khanh N. Dinh
-  status: Accepted by FedCSIS
-  preview: chen2026beaumont.jpg
-
 - title: Refining breast cancer stratification through improved mutation clustering of genomic samples
   authors:
     - Yanjie Chen

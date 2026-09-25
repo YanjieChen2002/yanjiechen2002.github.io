@@ -1,3 +1,7 @@
 "bioRxiv":
   url: https://www.biorxiv.org/
-  color: "#cc0000"
+  color: "#c2410c"
+
+"FedCSIS":
+  url: https://2026.fedcsis.org/
+  color: "#003366"
